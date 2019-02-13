@@ -1,0 +1,32 @@
+
+{ ToDo's:
+{ Add in a Hackathon Tab
+}
+{ Add in Resume Tab
+}
+{ Add in Outstanding achievements
+	List of outstandig achievements
+	1.
+	2.
+	3.
+	4.I ate a corn dog once
+	
+}
+{ Add in undocumented projects tab
+}
+{ Add pages to projects 
+}
+{ Fix side menu overlaying footer
+}
+{ Figure out why profile picture doesnt show up in fullscreen(happens when side bar comes out)
+	1. This problem happens when the side bar come out which also happens 
+	   when the page is bigger than 1/2
+}
+}
+Add in a minor projects webpage with just a scrolling list of little side projects like small repairs
+{ Project List:
+{ Spa Mirror Lights
+}
+{ Ultra sonic mist maker tornado
+}
+}

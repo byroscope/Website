@@ -1,0 +1,13 @@
+Solid: Java, Python, C#
+
+Know: C++, JavaScript, HTML/CSS
+
+Beginner: Machine Language/Neural Networks, Latex, PHP/SQL
+
+Here are a couple of Hackathon projects I have done, I can dig up some more examples if you would like. The first link is to the product page, the second link is the source code on Github. Let me know if you have any questions
+
+VRStoryBook https://devpost.com/software/hackisuf2018 https://github.com/keckrich/HackISUF2018
+
+Amputee Mouse https://devpost.com/software/amputee-mouse https://drive.google.com/open?id=0BxnX8Nxgm0xdME1Fd2l5bDVJV1E
+
+RaspberryPIKE https://medium.com/@jonathannsegal/hackuiowa-2018-c5501c9a62f5 https://github.com/keckrich/raspberryPike
