@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<title>FirstWebsite</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {background-color: #1e1e1e font-family: "Raleway", sans-serif}
+    div.rotate90{
+        transform: rotate(90deg);
+    }
+    div.blankspace1{
+        margin-bottom: 280px;
+    }
+</style>
+<body class="w3-dark-grey w3-content" style="max-width:1600px">
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="Assets/PlaceHolder.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO</b></h4>
+    <p class="w3-text-grey">Ryan Hillier</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <a href="ProjectSlot1.html" class= "fa fa-github w3-hover-opacity"></a>
+  </div>
+</nav>
+    
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    
+    
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="Index.html"><img src="/Assets/ProfilePicture2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b><center>This Website</center></b></h1>
+    </div>
+  </header>
+     <div class="w3-section w3-bottombar w3-col m12 w3-padding-16">
+         <img src="20181007_141612.jpg" alt="Me" style="width:100%">
+         <p><b>Date of Project:</b> 2/04/2019 -- Current</p>
+         <p>This was my very first time even using HTML/CSS. After some research into how to get started and the different kinds of CSS types, I decided just to throw myself into the middle of a project to learn. I picked a template from w3schools.com and began learning how all the different parts come together to make a website. Starting with editing mirror details on the orginal index.HTML page, into creating full project pages.  </p>
+         
+ <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-container w3-margin-bottom">
+      <img src="RaspberryRouter.jpeg" alt="Hardware/Software" style="width:100%">
+        <p>At the last Iowa State careerfair I metioned a couple of the projects I had been a part of and almost every company wanted to hear more about them, with non visual aid it was a bit underwhelming to just discribe them and search around my phone for different photos to help explain. This website is designed as a project portfolio to compliment my resume. This way I can both show companies what kind of passions I follow in the engineering field, and for them to have a solid reference during the hiring process.</p>
+    </div>
+ <div class="w3-row-padding">
+    <div class="w3-container w3-margin-bottom">
+      <img src="CrossoverCable.jpeg" alt="Hardware/Software" style="width:100%">
+        <p>Here you can see me soldering an ethernet crossover cable. Orginally we planned on using a direct Lan connection to track data, but revised that idea for practicality reasons. </p>
+    </div>
+<div class="w3-row-padding blankspace1">
+    <div class="rotate90 w3-half w3-container w3-margin-bottom">
+      <img src="IRSensor.jpg" alt="Hardware/Software" style="width:180%">
+    </div>
+    <div class=" rotate90  w3-half w3-container w3-margin-bottom">
+      <img src="Flywheel.jpg" alt="Hardware/Software" style="width:180%">
+    </div>
+  </div>
+<div>
+    <p>We used an infrared sensor to collect RPS(revolutions per second)</p>  
+</div>
+<div class="w3-row-padding">
+    <div class="w3-container w3-margin-bottom">
+      <img src="BikePike.jpeg" alt="Hardware/Software" style="width:100%">
+        <p>Here you can see me creating a ethernet crossover cable. Orginally we planned on using a direct Lan connection to track data, but revised that idea for practically reasons. </p>
+    </div>     
+     
+<p>Code Segment for project</p>
+ <body>
+    <center>
+        <textarea rows="6" cols="100" disabled="true">
+            <!doctype html>
+            <html>
+                <body>
+                   Hello World!
+                </body>
+            </html>
+        </textarea>
+    </center>
+</body>
+<div class="w3-margin-bottom">
+</div>
